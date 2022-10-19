@@ -1,0 +1,107 @@
+body
+{
+    background-color: #f8ece4;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+    
+    
+}
+.contents{
+    background-color: white;
+    width: 20%;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+
+}
+.imgcontainer{
+    height: 430px;
+    width: 290px;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    
+
+
+}
+.perfume{
+    margin-left: 9%;
+    color: gray;
+    font-family: 'Quicksand';
+}
+.perfume-name{
+    font-family: 'Fjalla One';
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.desc{
+    color: gray;
+    margin-left: 10%;
+    font-family: 'Crimson Text';
+    margin-right: 10%;
+    font-size: medium;
+}
+.discountedprice{
+    font-size: xx-large;
+    color: #3c886c;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: 20%;
+    
+}
+.strikedprice{
+    margin-left: 2px;
+    align-items: center;
+    margin-top: 0%;
+    color: grey;
+    font-size: small;
+    margin-top: 10%;
+}
+.addtocart{
+    background-color: #3c886c;
+    color: white;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 11.5px;
+    border: none;
+    padding: 5% 15%;
+    cursor: pointer;
+    width: 75%;
+    height: 10%;
+    padding:5%;
+}
+
+/* Designing for mobile */
+@media (max-width:800px) {
+    .container{
+        margin-top: 15%;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .imgcontainer
+    {
+        height: 20%;
+        width: 100%;
+        
+        border-radius: 0%;
+        border-top-left-radius: 2.5%;
+        border-top-right-radius: 2.5%;
+        
+    }
+    .contents{
+        width: 100%;
+        height: 20%;
+    
+        border-radius: 0%;
+        border-bottom-left-radius: 2.5%;
+        border-bottom-right-radius: 2.5%;
+
+
+    }
+  
+    
+}
